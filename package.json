@@ -1,0 +1,9 @@
+{
+  "name": "uwrt-project",
+  "scripts": {
+     "dev": "vite"
+  },
+  "dependencies": {
+    "vite": "^8.3.5"
+  }
+}

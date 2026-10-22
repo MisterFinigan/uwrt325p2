@@ -10,11 +10,11 @@
 <body>
     <header>
         <div>Greetings!</div>
-        <button onclick="$(`#load_here`).load(`other.html`)">load stuff</button>
+        <button onclick="$(`#main-content`).load(`intro.html`)">Introduction</button>
+        <button onclick="$(`#main-content`).load(`other.html`)">Other</button>
     </header>
-    <body id="main-content">
-        <p>This is the body</p>
-        <p id="load_here">stuff will go here</p>
+    <body>
+        <div id="main-content">Hello!</div>
     </body>
     <footer>
         goodbye!
