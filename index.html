@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UWRT 325 Main Page</title>
+    <!--Jquery for loading stuff-->
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div>Greetings!</div>
+        <button onclick="$(`#load_here`).load(`other.html`)">load stuff</button>
+    </header>
+    <body id="main-content">
+        <p>This is the body</p>
+        <p id="load_here">stuff will go here</p>
+    </body>
+    <footer>
+        goodbye!
+    </footer>
+</body>
+</html>
