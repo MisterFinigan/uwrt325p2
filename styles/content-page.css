@@ -8,7 +8,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 
-    outline: red 2px solid;
+    /*outline: red 2px solid;*/
 }
 
 #content p,#content div {
@@ -18,7 +18,7 @@ h1 {
 
     width: 23vw;
     padding: 10px;
-    outline: black 1px solid;
+    /*outline: black 1px solid;*/
 }
 
 #content p {
