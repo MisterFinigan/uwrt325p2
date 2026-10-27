@@ -1,0 +1,31 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    outline: red 2px solid;
+}
+
+#content p,#content div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 23vw;
+    padding: 10px;
+    outline: black 1px solid;
+}
+
+#content p {
+    text-indent: 2.5em;
+}
+
+.caption {
+    color: gray;
+    font-style: italic;
+}
