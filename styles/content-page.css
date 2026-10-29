@@ -10,7 +10,8 @@ h1 {
 #content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #content p,#content div {
@@ -18,7 +19,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 23vw;
+    max-width: 30vw;
     padding: 0 10px;
 
     text-align: justify;
@@ -32,4 +33,14 @@ h1 {
 .caption {
     color: gray;
     font-style: italic;
+}
+
+/* TEMP */
+#temp {
+    display: flex;
+    justify-content: center;
+}
+
+#temp * {
+    padding: 1em;
 }
